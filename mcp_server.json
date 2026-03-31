@@ -1,0 +1,27 @@
+{
+    "mcpServers": {
+        "filesystem": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-filesystem",
+                "/Users/louis383/Documents/bruno_api_gdg/bevyChecker/BevyChecker",
+                "/Users/louis383/.gemini/antigravity",
+                "/Users/louis383/Documents/IdeaProjects/TaiwanEbookSearch-API"
+            ]
+        },
+        "sequential-thinking": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-sequential-thinking"
+            ]
+        },
+        "context7": {
+            "serverUrl": "https://mcp.context7.com/mcp",
+            "headers": {
+                "CONTEXT7_API_KEY": ""
+            }
+        }
+    }
+}
